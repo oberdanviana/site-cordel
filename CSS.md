@@ -71,12 +71,25 @@ section.normal {
 section.imagem {
   background-color: rgba(51, 51, 51); |essa cor não vai aparecer quando a imagem for colocada.|
   color: white;
+  box-shadow: inset 6px 6px 13px 0px black; |inset é uma borda interna que dá a impressão da imagem está inseida numa folha de papel.|
+  background-size: cover; |a imagem cobre toda caixa.|
+  background-attachment: fixed; |deu o efeito paralaxe nas imagens.|
 }
 
 section.imagem > p{
   display: inline-block; |com display inline-block essa section se transforma em uma caixa que se adapta ao tamanho do conteúdo.|
   padding: 5px;
-  background-color: rgba(0, 0, 0, 0.253);
+   background-color: rgba(0, 0, 0, 0.514);;
+}
+
+section#img01 {
+  background-image: url('./assets/background001.jpg');
+  background-position: right center; |posicionamento da imagem.|
+} 
+
+section#img02 {
+  background-image: url('./assets/background002.jpg');
+  background-position: right center;
 }
 
 footer {

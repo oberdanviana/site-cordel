@@ -59,6 +59,10 @@ section {
   font-size: 3.5vw;
 }
 
+section > p {
+  padding-bottom: 2em; |Para dar espaço entre as estrofes.|
+}
+
 section.normal {
   background-color: white;
   color: black;
